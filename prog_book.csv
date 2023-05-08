@@ -1,0 +1,284 @@
+Book no,Book_title,Number_Of_Pages,Type,Price,Book Detail,Status
+2412,The elements of style,105,Hardcover,9.323529412,computer science,available
+2413,"The information: a history, a theory, a flood",527,Hardcover,11.0,computer science,available
+2414,Responsive web design overview for beginners,50,Kindle Edition,11.26764706,computer science,available
+2415,Ghost in the wires: my adventures as the world's most wanted hacker,393,Hardcover,12.87352941,computer science,available
+2416,How google works,305,Kindle Edition,13.16470588,computer science,Issued
+2417,The meme machine,288,Paperback,14.18823529,computer science,available
+2418,Start with why: how great leaders inspire everyone to take action,256,Hardcover,14.23235294,computer science,available
+2419,Algorithms to live by: the computer science of human decisions,368,Hardcover,14.36470588,computer science,available
+2420,Weapons of math destruction: how big data increases inequality and threatens democracy,259,Hardcover,14.50294118,computer science,available
+2421,Zx spectrum games code club: twenty fun games to code and learn,128,Paperback,400.0,computer science,Issued
+2422,Sync: the emerging science of spontaneous order,352,Hardcover,15.22941176,computer science,available
+2423,The master algorithm: how the quest for the ultimate learning machine will remake our world,352,Hardcover,15.22941176,computer science,available
+2424,"Superintelligence: paths, dangers, strategies",328,Hardcover,15.68235294,computer science,available
+2425,"The art of the start: the time-tested, battle-hardened guide for anyone starting anything",240,Hardcover,15.88529412,computer science,available
+2426,Kingpin: how one hacker took over the billion-dollar cybercrime underground,288,Hardcover,16.07352941,computer science,Issued
+2427,The quark and the jaguar: adventures in the simple and the complex,392,Paperback,16.36764706,computer science,available
+2428,"Linked: how everything is connected to everything else and what it means for business, science, and everyday life",304,Paperback,16000.0,computer science,available
+2429,Our final invention: artificial intelligence and the end of the human era,336,Hardcover,16.89117647,computer science,available
+2430,"The innovators: how a group of hackers, geniuses and geeks created the digital revolution",542,Hardcover,17.22941176,computer science,available
+2431,Debugging: the 9 indispensable rules for finding even the most elusive software and hardware problems,192,Paperback,17.49117647,computer science,available
+2432,"Big data: a revolution that will transform how we live, work, and think",242,Hardcover,17.62058824,computer science,available
+2433,Help your kids with computer coding,224,Paperback,18.93823529,computer science,available
+2434,The code book: the science of secrecy from ancient egypt to quantum cryptography,412,Paperback,19.13235294,computer science,available
+2435,Game programming golden rules,318,Paperback,19.15294118,computer science,available
+2436,The architecture of open source applications,432,Paperback,19.24705882,computer science,available
+2437,How to create a mind: the secret of human thought revealed,336,Hardcover,19.85588235,computer science,available
+2438,The hidden connections: a science for sustainable living,320,Paperback,20.05294118,computer science,available
+2439,Computability and unsolvability,288,Paperback,20.4,computer science,available
+2440,Adventures in minecraft,320,Paperback,21.03823529,computer science,available
+2441,Coding games in scratch,224,Paperback,21.08823529,computer science,available
+2442,Expert c programming: deep c secrets,384,Paperback,21.09705882,computer science,available
+2443,Data and goliath: the hidden battles to collect your data and control your world,448,Paperback,210.0,computer science,available
+2444,The cosmic landscape: string theory and the illusion of intelligent design,416,Hardcover,21.81470588,computer science,available
+2445,Six degrees: the science of a connected age,384,Paperback,219.0,computer science,available
+2446,Nine algorithms that changed the future: the ingenious ideas that drive today's computers,219,Hardcover,22.40882353,computer science,available
+2447,The society of mind,336,Paperback,225.0,computer science,available
+2448,Javascript: the good parts,153,Paperback,228.0,computer science,Issued
+2449,The pattern on the stone: the simple ideas that make computers work,176,Paperback,22.82647059,computer science,available
+2450,Accelerate: building and scaling high-performing technology organizations,257,Paperback,23.05,computer science,available
+2451,Beginners guide on php programming: quick and easy guide to learn php with my-sql,410,Paperback,23.22647059,computer science,available
+2452,The connection machine,190,Hardcover,23.23529412,computer science,Issued
+2453,Agile retrospectives: making good teams great,170,Paperback,238.5,computer science,available
+2454,Python programming books set: python programming for beginners & complete guide for python programming,446,Paperback,23.85882353,computer science,available
+2455,"The phoenix project: a novel about it, devops, and helping your business win",345,Hardcover,24.25882353,computer science,available
+2456,Agile web development with rails: a pragmatic guide,558,Paperback,240.0,computer science,available
+2457,Scrum and xp from the trenches,140,Paperback,24.72352941,computer science,available
+2458,A smarter way to learn javascript: the new approach that uses technology to cut your effort in half,343,Kindle Edition,24.83235294,computer science,available
+2459,97 things every programmer should know: collective wisdom from the experts,258,Paperback,25.28235294,computer science,available
+2460,Introduction to functional programming,293,Hardcover,25.30294118,computer science,available
+2461,An introduction to functional programming through lambda calculus,336,Paperback,25.30294118,computer science,available
+2463,"The strangest man: the hidden life of paul dirac, mystic of the atom",539,Hardcover,25.82352941,computer science,available
+2464,Your first app: node.js,317,ebook,25.85588235,computer science,Issued
+2465,Apprenticeship patterns: guidance for the aspiring software craftsman,176,Paperback,26.00882353,computer science,available
+2466,"Python crash course: a hands-on, project-based introduction to programming",560,Paperback,26.34411765,computer science,available
+2467,"Invent your own computer games with python, 3rd edition",370,Paperback,26.91764706,computer science,available
+2468,The principles of object-oriented javascript,120,Kindle Edition,27.24411765,computer science,available
+2469,Joel on software,384,Paperback,27.42941176,computer science,Issued
+2470,Sams teach yourself javascript in 24 hours,442,Paperback,27.85,computer science,available
+2471,The shape of inner space: string theory and the geometry of the universe's hidden dimensions,377,Hardcover,27.94117647,computer science,available
+2472,Seven languages in seven weeks,328,Paperback,27.94117647,computer science,available
+2473,Quality software management v 1 – systems thinking,336,Hardcover,28.46470588,computer science,available
+2474,Python programming for beginners: quick and easy guide for python programmers,190,Paperback,29.02058824,computer science,available
+2475,Manage your project portfolio,250,Paperback,29.21176471,computer science,Issued
+2476,How google tests software,281,Paperback,29.83529412,computer science,available
+2477,Code: the hidden language of computer hardware and software,400,Paperback,30.49117647,computer science,available
+2478,Computability and logic,350,Paperback,31.01176471,computer science,available
+2479,Eloquent javascript: a modern introduction to programming,224,Paperback,31.02058824,computer science,available
+2480,Does god play dice?: the new mathematics of chaos,416,Paperback,31.22647059,computer science,available
+2481,Learn java the easy way : a hands-on introduction to programming,312,Kindle Edition,31.48235294,computer science,available
+2482,Make your own neural network: an in-depth visual introduction for beginners,316,Kindle Edition,31.74705882,computer science,Issued
+2483,"The golden ticket: p, np, and the search for the impossible",176,Hardcover,32.84705882,computer science,Issued
+2484,Pro git,290,Paperback,33.05882353,computer science,available
+2485,Automate the boring stuff with python: practical programming for total beginners,479,Paperback,33.05882353,computer science,available
+2486,Best of game programming gems,576,Hardcover,33.54411765,computer science,available
+2487,Sams teach yourself mysql in 24 hours,368,Paperback,3400.0,computer science,available
+2488,Algorithms unlocked,237,ebook,349.0,computer science,available
+2489,Practical sql: a beginner's guide to storytelling with data,392,Paperback,34.42941176,computer science,available
+2490,Css: the missing manual,560,Paperback,35.10294118,computer science,available
+2491,Blueprints visual scripting for unreal engine,188,Paperback,35.19117647,computer science,Issued
+2492,Soft skills: the software developer's life manual,470,Paperback,35.23529412,computer science,available
+2493,Doing data science,375,Paperback,35.35882353,computer science,available
+2494,Automate this: how algorithms came to rule our world,256,Hardcover,35.84117647,computer science,available
+2495,How to think like a computer scientist: learning with python,288,Unknown Binding,36.12647059,computer science,available
+2496,Beginning java 2,1200,Paperback,36.61764706,computer science,available
+2497,Learn you a haskell for great good!: a beginner's guide,376,Paperback,36.7,computer science,Issued
+2498,Learn you a haskell for great good!,176,ebook,36.7,computer science,available
+2499,Unity in action,352,Paperback,37.02058824,computer science,available
+2500,The goal: a process of ongoing improvement,384,Paperback,37.14117647,computer science,available
+2501,The little schemer,210,Paperback,37.32352941,computer science,available
+2502,Functional programming in scala,320,Paperback,37.43235294,computer science,Issued
+2503,High performance browser networking,400,Paperback,37.66176471,computer science,available
+2504,Sams teach yourself perl in 24 hours,462,Paperback,38.23529412,computer science,available
+2505,Learn python the hard way,210,Unknown Binding,38.29705882,computer science,available
+2506,Effective python: 59 specific ways to write better python,227,Paperback,38.62352941,computer science,Issued
+2507,"Programming in lua, fourth edition",388,Paperback,38.75588235,computer science,Issued
+2508,Release it!: design and deploy production-ready software (pragmatic programmers),326,Paperback,39.19705882,computer science,available
+2509,Think complexity: complexity science and computational modeling,160,Paperback,39.61470588,computer science,available
+2510,A tour of c++,192,Paperback,40.10588235,computer science,available
+2511,Reviewing c++,546,Paperback,40.47941176,computer science,available
+2512,Functional programming application and implementation,350,Hardcover,41.24411765,computer science,available
+2513,The elements of computing systems: building a modern computer from first principles,325,Hardcover,41.25294118,computer science,available
+2514,Simulation of digital communication systems using matlab,422,Kindle Edition,41.30588235,computer science,available
+2515,Game programming patterns,300,Paperback,41.37647059,computer science,Issued
+2516,The practice of programming (addison-wesley professional computing series),288,Paperback,41.40588235,computer science,available
+2517,From mathematics to generic programming,320,ebook,41.40588235,computer science,Issued
+2518,Rest in practice: hypermedia and systems architecture,448,Paperback,41.89117647,computer science,available
+2519,The visual display of quantitative information,197,Hardcover,42.03235294,computer science,available
+2520,Fearless change: patterns for introducing new ideas,304,Hardcover,42.14411765,computer science,available
+2521,Elements of programming,262,Hardcover,42.23529412,computer science,available
+2522,Learning ruby,260,Paperback,420.0,computer science,Issued
+2523,The design of design: essays from a computer scientist,421,Paperback,42.26470588,computer science,available
+2524,Build web applications with java: learn every aspect to build web applications from scratch,372,Paperback,42.27647059,computer science,available
+2525,More effective c++,336,Paperback,42.27647059,computer science,available
+2526,Cryptography engineering: design principles and practical applications,353,Paperback,42.36764706,computer science,available
+2527,Effective javascript: 68 specific ways to harness the power of javascript,240,Paperback,42.52058824,computer science,available
+2528,Machine learning for hackers,322,Paperback,42.55588235,computer science,available
+2529,Code complete,914,Paperback,42.61470588,computer science,available
+2530,Making games with python & pygame,366,Paperback,43.16470588,computer science,Issued
+2531,Big data: principles and best practices of scalable realtime data systems,328,Paperback,43.31470588,computer science,Issued
+2532,The mythical man-month: essays on software engineering,322,Paperback,43.37058824,computer science,available
+2533,The clean coder: a code of conduct for professional programmers,210,Paperback,44.36470588,computer science,available
+2534,Programming pearls,239,Paperback,44.36470588,computer science,available
+2535,C# in depth,554,Paperback,44.42647059,computer science,available
+2536,Learning perl,312,Paperback,44.64117647,computer science,available
+2537,"The scrumban [r]evolution: getting the most out of agile, scrum, and lean kanban",384,Kindle Edition,45.02941176,computer science,available
+2538,Real-world machine learning,264,Paperback,45.11470588,computer science,available
+2539,Php and mysql web development (developer's library),1008,Paperback,45.32647059,computer science,available
+2540,Managing data using excel,324,Paperback,45.33529412,computer science,Issued
+2541,"Designing data-intensive applications: the big ideas behind reliable, scalable, and maintainable systems",616,Paperback,45.56176471,computer science,available
+2542,Unity virtual reality projects,286,Paperback,45.66470588,computer science,available
+2543,The sciences of the artificial,248,Paperback,45.84117647,computer science,available
+2544,Programming ruby: the pragmatic programmers' guide,828,Paperback,46.0,computer science,available
+2545,Python for data analysis,400,Paperback,46.31764706,computer science,available
+2546,Data science from scratch: first principles with python,330,Kindle Edition,46.31764706,computer science,available
+2547,The linux programming interface: a linux and unix system programming handbook,1506,Hardcover,46.35882353,computer science,available
+2548,Clean code: a handbook of agile software craftsmanship,434,Paperback,46.57352941,computer science,available
+2549,Peopleware: productive projects and teams,245,Paperback,46.67647059,computer science,available
+2550,Extreme programming explained: embrace change (the xp series),224,Paperback,46.87058824,computer science,Issued
+2551,Test driven development: by example,216,Paperback,48.62941176,computer science,available
+2552,Uml distilled: a brief guide to the standard object modeling language,208,Paperback,48.62941176,computer science,available
+2553,Effective stl: 50 specific ways to improve your use of the standard template library,288,Paperback,49.04117647,computer science,available
+2554,Introduction to computation and programming using python,280,Paperback,49.18235294,computer science,available
+2555,Essential scrum: a practical guide to the most popular agile process,496,Paperback,49.62352941,computer science,available
+2556,Practical object oriented design in ruby,247,Paperback,50.09411765,computer science,available
+2557,The boost c++ libraries,570,Paperback,50.51176471,computer science,available
+2558,Building an fps game with unity,326,Paperback,50.72647059,computer science,available
+2559,The it handbook for business: managing information technology support costs,180,Paperback,51.17647059,computer science,available
+2560,"Div, grad, curl, and all that: an informal text on vector calculus",176,Paperback,51.17647059,computer science,available
+2561,Design and validation of computer protocols,512,Paperback,51.36176471,computer science,available
+2562,The psychology of computer programming,292,Paperback,51.43235294,computer science,available
+2563,Make your own neural network,252,Kindle Edition,51.46470588,computer science,available
+2564,Accelerated c++: practical programming by example,352,Paperback,51.47352941,computer science,available
+2565,The rails way,851,Paperback,51.47352941,computer science,available
+2566,The joy of clojure,328,Paperback,51.47352941,computer science,available
+2567,"More exceptional c++: 40 new engineering puzzles, programming problems, and solutions",304,Paperback,51.47352941,computer science,available
+2568,"Exceptional c++ style: 40 new engineering puzzles, programming problems, and solutions",325,Paperback,51.47352941,computer science,available
+2569,Computational geometry: algorithms and applications,386,Hardcover,52.03823529,computer science,available
+2570,Head first design patterns,638,Paperback,52.15882353,computer science,available
+2571,"Continuous delivery: reliable software releases through build, test, and deployment automation",463,Hardcover,52.48823529,computer science,available
+2573,Data structures and algorithms,448,Paperback,53.17352941,computer science,available
+2574,Android ndk game development cookbook,320,Paperback,53.39705882,computer science,available
+2575,Assembly language: step-by-step,448,Paperback,53.89411765,computer science,available
+2576,Effective programming: more than writing code,283,ebook,54.71764706,computer science,available
+2577,Building microservices: designing fine-grained systems,262,Paperback,54.93529412,computer science,available
+2578,"Exceptional c++: 47 engineering puzzles, programming problems, and solutions",208,Paperback,56.07941176,computer science,available
+2579,Reviewing java,658,Paperback,56.59117647,computer science,available
+2580,Microsoft visual c# step by step,816,Paperback,56.63235294,computer science,available
+2581,Refactoring: improving the design of existing code,431,Hardcover,57.15294118,computer science,available
+2582,"Growing object-oriented software, guided by tests",345,Paperback,57.15294118,computer science,available
+2583,Modern c++ design: generic programming and design patterns applied,360,Paperback,58.42941176,computer science,available
+2584,Structure and interpretation of computer programs (mit electrical engineering and computer science),657,Paperback,58.94411765,computer science,available
+2585,Structure and interpretation of computer programs,657,Hardcover,58.94411765,computer science,available
+2586,Beginning game programming: a gamedev.net collection,514,Paperback,59.08235294,computer science,available
+2587,Advanced game programming: a gamedev.net collection,464,Paperback,59.08235294,computer science,available
+2588,Basic proof theory,355,Hardcover,59.52647059,computer science,available
+2589,C: a reference manual,458,Paperback,59.97941176,computer science,available
+2590,Working effectively with legacy code,464,Paperback,60.05882353,computer science,available
+2591,Api design for c++,472,Paperback,60.18235294,computer science,available
+2592,Cross-platform game programming (game development) (charles river media game development),460,Paperback,60.39117647,computer science,available
+2593,Design patterns: elements of reusable object-oriented software,416,Hardcover,60.68235294,computer science,available
+2594,Haskell: the craft of functional programming,487,Paperback,60.68235294,computer science,available
+2595,Object-oriented design heuristics,379,Hardcover,60.68235294,computer science,available
+2596,C primer plus,959,Paperback,60.68235294,computer science,Issued
+2597,"Lambda-calculus, combinators and functional programming",192,Paperback,61.16764706,computer science,available
+2598,C++ primer,976,Paperback,61.18529412,computer science,Issued
+2599,Mining of massive datasets,326,Hardcover,61.26470588,computer science,available
+2600,"Framework design guidelines: conventions, idioms, and patterns for reusable .net libraries",480,Hardcover,61.42058824,computer science,available
+2601,Dependency injection in .net,584,Paperback,61.85588235,computer science,available
+2602,Think like a programmer: an introduction to creative problem solving,233,Paperback,62.79117647,computer science,Issued
+2603,Augmented reality: principles and practice,528,Paperback,63.83529412,computer science,available
+2604,"Fluent python: clear, concise, and effective programming",792,Paperback,64.09117647,computer science,available
+2605,Hacker's delight,320,Hardcover,64.23235294,computer science,available
+2606,Domain-specific languages,597,Hardcover,64.39117647,computer science,available
+2607,Implementing domain-driven design,656,Hardcover,64.76470588,computer science,available
+2608,Clr via c# (developer reference),863,Paperback,66.32058824,computer science,available
+2609,The calculus of computation: decision procedures with applications to verification,366,Hardcover,66.82058824,computer science,available
+2610,"C++ coding standards: 101 rules, guidelines, and best practices (c++ in depth series)",240,Paperback,66.82058824,computer science,available
+2611,How to design programs: an introduction to programming and computing,728,Hardcover,66.83235294,computer science,available
+2612,Advanced programming in the unix environment,927,Hardcover,67.83529412,computer science,available
+2613,Learning python,1214,Paperback,67.87352941,computer science,Issued
+2614,Programming php,542,Paperback,69.31764706,computer science,available
+2615,The c programming language,288,Paperback,69.37941176,computer science,available
+2616,The c++ programming language,1040,Hardcover,69.37941176,computer science,available
+2617,Mathematics for 3d game programming and computer graphics,545,Hardcover,69.89117647,computer science,available
+2618,Pro typescript: application-scale javascript development,256,Paperback,70.35294118,computer science,available
+2619,"The protocols (tcp/ip illustrated, volume 1)",600,Hardcover,70.75882353,computer science,available
+2620,Domain-driven design: tackling complexity in the heart of software,560,Hardcover,71.41470588,computer science,Issued
+2621,Feynman lectures on computation,320,Paperback,72.37647059,computer science,available
+2622,Communication networks: fundamental concepts and key architectures,928,Hardcover,75.7,computer science,available
+2623,The unified modeling language user guide,475,Hardcover,77.05294118,computer science,available
+2624,"Introduction to game design, prototyping, and development: from concept to playable game with unity and c#",908,Paperback,77.05294118,computer science,available
+2625,Lambda-calculus and combinators: an introduction,345,Hardcover,78.43529412,computer science,available
+2626,Algorithms,976,Hardcover,78.60882353,computer science,Issued
+2627,Computational complexity,544,Paperback,78.73235294,computer science,available
+2628,C++ templates: the complete guide,560,Hardcover,79.1,computer science,available
+2629,The unix programming environment,357,Paperback,79.72352941,computer science,Issued
+2630,Concrete mathematics: a foundation for computer science,672,Hardcover,79.80588235,computer science,available
+2631,Inside the c++ object model,304,Paperback,80.84411765,computer science,Issued
+2632,Machine learning,414,Paperback,81.88823529,computer science,available
+2633,The algorithm design manual,730,Hardcover,81.92058824,computer science,available
+2634,Algorithm design,864,Hardcover,81.92058824,computer science,available
+2635,Xunit test patterns: refactoring test code,883,Hardcover,82.16764706,computer science,available
+2636,Genetic programming ii: automatic discovery of reusable programs,768,Hardcover,82.36764706,computer science,available
+2637,Optimized c++: proven techniques for heightened performance,388,Paperback,83.15,computer science,available
+2638,Deep learning,787,ebook,83.20294118,computer science,available
+2639,Practical foundations for programming languages,582,ebook,83.21176471,computer science,available
+2640,Engineering a compiler,801,Hardcover,83.66176471,computer science,available
+2641,Object-oriented analysis and design with applications,720,Hardcover,83.70294118,computer science,available
+2642,Database system concepts,1142,Hardcover,85.60588235,computer science,available
+2643,Elements of the theory of computation,384,Paperback,87.24705882,computer science,available
+2644,"Agile software development, principles, patterns, and practices",552,Hardcover,87.28529412,computer science,available
+2645,3d math primer for graphics and game development,846,Hardcover,87.38235294,computer science,Issued
+2646,Introduction to the theory of computation,431,Hardcover,90.98235294,computer science,available
+2647,Game programming gems,600,Hardcover,91.04705882,computer science,available
+2648,Game programming gems 2,575,Hardcover,91.04705882,computer science,available
+2649,Game programming gems 5,791,Hardcover,91.04705882,computer science,available
+2650,Introduction to algorithms,1180,Hardcover,92.25588235,computer science,available
+2651,Geometric algebra for computer science: an object-oriented approach to geometry,626,Hardcover,92.35882353,computer science,available
+2652,Essentials of programming languages,410,Hardcover,92.41176471,computer science,Issued
+2653,"The art of computer programming, volume 1: fundamental algorithms",672,Hardcover,93.45588235,computer science,available
+2654,Essential mathematics for games and interactive applications,624,Hardcover,94.78529412,computer science,available
+2655,Game engine architecture,1052,Hardcover,96.03235294,computer science,available
+2656,"A first course in logic: an introduction to model theory, proof theory, computability, and complexity",431,Paperback,96.49411765,computer science,available
+2657,Computational science and engineering,716,Hardcover,97.52647059,computer science,available
+2658,"Introduction to automata theory, languages, and computation",521,Hardcover,97.68823529,computer science,available
+2659,Geometric tools for computer graphics,1056,Hardcover,99.82941176,computer science,available
+2660,Computer architecture: a quantitative approach,493,Paperback,101.0558824,computer science,Issued
+2661,Computer systems: a programmer's perspective,978,Hardcover,103.1735294,computer science,available
+2662,Modern operating systems,976,Hardcover,103.4617647,computer science,available
+2663,"Modern operating systems, 4th edition",1136,Paperback,103.4617647,computer science,available
+2664,Structured computer organization,669,Hardcover,103.6088235,computer science,Issued
+2665,Game engine gems 1,362,Hardcover,105.65,computer science,available
+2666,"Concepts, techniques, and models of computer programming",936,Hardcover,1070.0,computer science,available
+2667,File structures: an object-oriented approach with c++,724,Paperback,108.3676471,computer science,Issued
+2668,The c++ standard library: a tutorial and reference,1136,Hardcover,113.3029412,computer science,available
+2669,Artificial intelligence: a modern approach,1132,Hardcover,115.75,computer science,available
+2670,3d game engine design: a practical approach to real-time computer graphics (the morgan kaufmann series in interactive 3d technology),1040,Hardcover,117.9882353,computer science,available
+2671,Game programming gems 6,700,Hardcover,119.0,computer science,available
+2672,"Compilers: principles, techniques, and tools",796,Hardcover,126.5794118,computer science,available
+2673,Game programming gems 4,703,Hardcover,139.4352941,computer science,Issued
+2674,Game programming gems 3,663,Hardcover,143.1382353,computer science,available
+2675,Numerical recipes: the art of scientific computing,1235,Hardcover,176.0,computer science,available
+2676,3d game engine architecture: engineering real-time applications with wild magic (the morgan kaufmann series in interactive 3d technology),752,Hardcover,203.0,computer science,available
+2677,An introduction to database systems,1040,Paperback,2120.0,computer science,available
+2678,"The art of computer programming, volumes 1-3 boxed set",896,Boxed Set - Hardcover,220.0,computer science,available
+2679,"The art of computer programming, volumes 1-4a boxed set",3168,Hardcover,220.0,computer science,available
+2680,A discipline for software engineering,789,Hardcover,235.65,computer science,available
+2681,Business studies (part - 1),235,Paperback,120.0,Class 12 text book,available
+2682,Businnes studies (part -2) ,360,Paperback,80.0,Class 12 text book,Issued
+2684,Informatics practices data handaling,579,Paperback,495.0,class 12  text book,available
+2685,Rich dad poor dad,363,Paperback,160.0,read book,available
+2786,Double entry book keeping accounting for not profit organisation and partnership firm,590,Paperback,475.0,class 12 text book,Issued
+2798,"Introductory macroeconomics (t.r. jain , v.k. ori)",563,Paperback,360.0,class 12 text book,Issued
+2790,Double entry book keeping accounting for companies,360,Paperback,305.0,class 12 text book,Issued
+2799,Double entry book keeping analysis of finencial statements,487,Paperback,480.0,class 12 text book,available
+7921,Double entry book keeping (finencial accounting),700,Paperback,645.0,class 12 text book,Issued
+3456,Xamidea economics (multiple choice questions)term-1 (class-12),240,Paperback,252.0,class 12 text book,available
+1264,Gardience of the galaxy,120,Paperback,120.0,Comic,available
+14562,Marvel future fight,90,Paperback,180.0,comic,available
+1,"Hands on machine learning with sikit-learn,keras,tensorflow",819,Paperback,5549.0,Computer Science,Issued
+1124,"Head first android development a brain-friendly guide by dawn griffiths, david griffiths ",930,ebook,3000.0,Computer Science,available
+1632,Language of maths,189,Paperback,100.0,mathmatics,Issued
+1321,Game programming gems 7,700,Hardcover,119.0,computer science,available
