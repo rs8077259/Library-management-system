@@ -20,7 +20,7 @@ def library_chk():
             pass
         else:
             os.system('pip install '+b)
-#library_chk()
+library_chk()
 hfgui(5)
 import pandas as pd,matplotlib.pyplot as plt,plyer,numpy as np
 from PIL import Image,ImageTk
@@ -667,10 +667,10 @@ def changer(i):
         pic=list(bphoto[bphoto.BookNo==k].filename)
         pic=pic[0]
         background2=Image.open("bphoto\\"+pic)
-        back=background2.resize((140,160),Image.ANTIALIAS)
+        back=background2.resize((150,220),Image.ANTIALIAS)
         picture3=ImageTk.PhotoImage(back)
         pic=tk.Label(issue_w,image=picture3)
-        pic.place(x=1219,y=480)
+        pic.place(x=1219,y=535)
     except Exception as e:
         print(e)
     matched=0
@@ -737,15 +737,16 @@ def defalters():
     main_w.destroy()
     windows=tk.Tk()
     
-    windows.minsize(1400,700)
-    windows.maxsize(1400,700)
-    #windows.iconbitmap('Itzikgur-My-Seven-Books-2.ico')
+    windows.minsize(1500,900)
+    windows.maxsize(1500,900)
+    windows.iconbitmap('Itzikgur-My-Seven-Books-2.ico')
     windows.title('Running... library management system')
+    windows.geometry('1500x900')
     heading=tk.Label(windows,text='Defalters',font=('segoe script',30),fg='red',bg='white').pack(fill='both',)
     
-    tree_view_frame=tk.Frame(windows,height=600,bg='white',width=1400)
+    tree_view_frame=tk.Frame(windows,height=600,bg='white',width=1500)
     scroll=tk.Scrollbar(tree_view_frame,)
-    scroll.place(x=1380,y=0,height=600)
+    scroll.place(x=1480,y=0,height=600)
     def_table=ttk.Treeview(tree_view_frame,show='headings',height=30,yscrollcommand=scroll.set)
     
     def_table['columns']=tuple(issue_data.columns)
@@ -780,12 +781,11 @@ def defalters():
 
             def_table.insert('',index='end',iid=item3,values=tuple(kl.iloc[item3]))
                 
-    def_table.place(x=0,y=0,width=1380)
+    def_table.place(x=0,y=0,width=1480)
     tree_view_frame.pack()
-    button3=tk.Button(windows,text='Show Charts',font=('arial black',10),borderwidth=2,command=chart,bg='white',activebackground='red',activeforeground='white').place(x=1300,y=600)
-    
-    button6=tk.Button(windows,text='<-- Back ',borderwidth=2,font=('arial black',10),activeforeground='white',activebackground='red',command=chart).place(x=20,y=600)
-    windows.protocol('WM_DELETE_WINDOW',chart,)
+    button3=tk.Button(windows,text='Show Charts',font=('arial black',10),borderwidth=2,command=chart,bg='white',activebackground='red',activeforeground='white').place(x=1400,y=770)
+    button6=tk.Button(windows,text='<-- Back ',borderwidth=2,font=('arial black',10),activeforeground='white',activebackground='red',command=lambda : main_window(windows.destroy())).place(x=20,y=770)
+    windows.protocol('WM_DELETE_WINDOW',lambda : timegiven(windows.destroy()),)
     windows.mainloop()
 
 '''                                                    ------------------------------issue window----------------------------'''
@@ -797,27 +797,28 @@ def issue_book():
     issue_w=tk.Tk()
     
     issue_w.title('Running... library management system')
-    issue_w.geometry('1400x700')
-    issue_w.resizable(False,False)
-    #issue_w.iconbitmap('Itzikgur-My-Seven-Books-2.ico')
+    issue_w.geometry('1500x900')
+    issue_w.minsize(1500,900)
+    issue_w.maxsize(1500,900)
+    issue_w.iconbitmap('Itzikgur-My-Seven-Books-2.ico')
     heading=tk.Label(issue_w,text='Issue',font=('segoe script',30),fg='red').pack(fill='both',)
     
-    tree_view_frame=tk.Frame(issue_w,height=350,bg='white',width=1400)
+    tree_view_frame=tk.Frame(issue_w,height=400,bg='white',width=1500)
     
     scroll=tk.Scrollbar(tree_view_frame,)
-    scroll.place(x=1380,y=0,height=350)
+    scroll.place(x=1480,y=0,height=400)
 
     issue_table=ttk.Treeview(tree_view_frame,show='headings',height=19,yscrollcommand=scroll.set)
     
     issue_table['columns']=tuple(issue_data.columns)
     issue_table.column('Serial No',width=90)
-    issue_table.column('Book No',width=120)
-    issue_table.column('Book Name',anchor='center',width=450)
-    issue_table.column('Student Name',anchor='center',width=150)
-    issue_table.column('Student adm_no',width=100)
-    issue_table.column('class\section',width=90)
-    issue_table.column('Issue Date',width=130)
-    issue_table.column('Return Date',width=130)
+    issue_table.column('Book No',width=90)
+    issue_table.column('Book Name',anchor='center',width=300)
+    issue_table.column('Student Name',anchor='center',width=140)
+    issue_table.column('Student adm_no',width=120)
+    issue_table.column('class\section',width=100)
+    issue_table.column('Issue Date',width=150)
+    issue_table.column('Return Date',width=150)
     for data in tuple(issue_data.columns):
         issue_table.heading(data,text=data,)
     item2=0
@@ -832,60 +833,60 @@ def issue_book():
     date=date.date()
     scroll.config(command=issue_table.yview)
 #-------------------------------------------------------------------------------------------    
-    book_n=tk.Label(issue_w,text='Book No',).place(x=50,y=450)
-    book_n=tk.Entry(issue_w,width=20)
+    book_n=tk.Label(issue_w,text='Book No',).place(x=50,y=500)
+    book_n=tk.Entry(issue_w,width=43)
     book_n.bind('<KeyRelease>',bok_serch)
-    book_n.place(x=110,y=450)
+    book_n.place(x=110,y=500)
     
 
-    book_name=tk.Label(issue_w,text='Book Name',).place(x=310,y=450)
+    book_name=tk.Label(issue_w,text='Book Name',).place(x=410,y=500)
     book_name2=tk.Entry(issue_w,width=50)
     book_name2.bind('<KeyRelease>',b_serch)
-    book_name2.place(x=390,y=450)
+    book_name2.place(x=480,y=500)
     
-    student_admno=tk.Label(issue_w,text='Admission No',).place(x=730,y=450)
+    student_admno=tk.Label(issue_w,text='Admission No',).place(x=845,y=500)
     std_admno=tk.Entry(issue_w,width=30)
-    std_admno.place(x=830,y=450)
+    std_admno.place(x=935,y=500)
 
     
-    std_name=tk.Label(issue_w,text='Student Name',).place(x=1050,y=450)
+    std_name=tk.Label(issue_w,text='Student Name',).place(x=1155,y=500)
     std_name=tk.Entry(issue_w,width=38)
-    std_name.place(x=1140,y=450)
+    std_name.place(x=1240,y=500)
 
-    class_=tk.Label(issue_w,text='Class & Section',).place(x=180,y=530)
+    class_=tk.Label(issue_w,text='Class & Section',).place(x=180,y=600)
     class_=tk.Entry(issue_w,width=20)
-    class_.place(x=280,y=530,)
+    class_.place(x=280,y=600)
     
-    issue_d=tk.Label(issue_w,text='Date of Issue',).place(x=450,y=530)
+    issue_d=tk.Label(issue_w,text='Date of Issue',).place(x=450,y=600)
     issue_d=tk.Entry(issue_w,width=20)
     issue_d.insert(0,date)
-    issue_d.place(x=530,y=530)
+    issue_d.place(x=530,y=600)
     
-    interval=tk.Label(issue_w,text='total Days',).place(x=720,y=530)
+    interval=tk.Label(issue_w,text='total Days',).place(x=720,y=600)
     interval=tk.Entry(issue_w,width=20)
     interval.insert(0,7)
-    interval.place(x=787,y=530)
+    interval.place(x=787,y=600)
     interval.bind('<KeyRelease>',return_datei)
 
     
-    r_date=tk.Label(issue_w,text='Return Date',).place(x=950,y=530)
+    r_date=tk.Label(issue_w,text='Return Date',).place(x=950,y=600)
     r_date=tk.Entry(issue_w,width=20)
     r_date.insert(0,date+datetime.timedelta(int(interval.get())))
-    r_date.place(x=1025,y=530)
+    r_date.place(x=1025,y=600)
 
 
-    button3=tk.Button(issue_w,text='ISSUE',font=('arial black',10),borderwidth=2,command=add,bg='white',activebackground='green',activeforeground='white').place(x=1300,y=660)
+    button3=tk.Button(issue_w,text='ISSUE',font=('arial black',10),borderwidth=2,command=add,bg='white',activebackground='green',activeforeground='white').place(x=1400,y=770)
 
-    button4=tk.Button(issue_w,text='Received',borderwidth=2,font=('arial black',10),activeforeground='white',activebackground='red',command=retur_book_).place(x=1200,y=660)
+    button4=tk.Button(issue_w,text='Received',borderwidth=2,font=('arial black',10),activeforeground='white',activebackground='red',command=retur_book_).place(x=1300,y=770)
 
-    button5=tk.Button(issue_w,text='<-- Back ',borderwidth=2,font=('arial black',10),activeforeground='white',activebackground='red',command=lambda : main_window(issue_w.destroy())).place(x=20,y=660)
+    button5=tk.Button(issue_w,text='<-- Back ',borderwidth=2,font=('arial black',10),activeforeground='white',activebackground='red',command=lambda : main_window(issue_w.destroy())).place(x=20,y=770)
 
     issue_w.protocol('WM_DELETE_WINDOW',lambda : timegiven(issue_w.destroy()))
 
 
     
         
-    issue_table.place(x=0,y=0,width=1380)
+    issue_table.place(x=0,y=0,width=1480)
     tree_view_frame.pack()
     
     issue_w.mainloop()
@@ -903,7 +904,7 @@ def book_window():
     
     root.title('Running... library management system')
     root.geometry('1600x900')
-    #root.iconbitmap('Itzikgur-My-Seven-Books-2.ico')
+    root.iconbitmap('Itzikgur-My-Seven-Books-2.ico')
     
     frame=tk.Label(root,text='Book Details',font=('segoe script',24),fg='red',padx=10)
     frame.pack()
@@ -1008,14 +1009,14 @@ def main_window(dest):
 
     main_w=tk.Tk()
     
-    main_w.maxsize(1208,700)
-    main_w.minsize(1208,700)
-    #main_w.iconbitmap('Itzikgur-My-Seven-Books-2.ico')
+    main_w.maxsize(1208,900)
+    main_w.minsize(1208,900)
+    main_w.iconbitmap('Itzikgur-My-Seven-Books-2.ico')
     main_w.title('Running... library management system')
     images=os.listdir('photo')
     imags=random.choice(images)
-    background2=Image.open('toucan-1637295785715-9819.jpg')
-    back=background2.resize((1208,700),Image.ANTIALIAS)
+    background2=Image.open('photo\\'+imags)
+    back=background2.resize((1208,900),Image.ANTIALIAS)
     school_photo=ImageTk.PhotoImage(back)
     main_w_background=tk.Label(main_w,image=school_photo)
     main_w_background.pack()
@@ -1030,15 +1031,15 @@ def main_window(dest):
 
 
     ' =====================================================================  BUTTON  ======================================================================================= '
-    book_button = tk.Button(main_w,text = 'BOOK DETAILS',fg='black',width=32,height=7,bg='white',borderwidth=0,activebackground='gray',activeforeground='white',font=('arial black',13),command=book_window)
-    book_button.place(x=7,y=520)
+    book_button = tk.Button(main_w,text = 'BOOK DETAILS',fg='black',width=32,height=8,bg='white',borderwidth=0,activebackground='gray',activeforeground='white',font=('arial black',13),command=book_window)
+    book_button.place(x=7,y=620)
 
-    issue_button = tk.Button(main_w,text = 'ISSUE BOOK',fg='black',width=34,height=7,bg='white',borderwidth=0,activebackground='gray',activeforeground='white',font=('arial black',13),command=issue_book)
-    issue_button.place(x=403,y=520)
+    issue_button = tk.Button(main_w,text = 'ISSUE BOOK',fg='black',width=34,height=8,bg='white',borderwidth=0,activebackground='gray',activeforeground='white',font=('arial black',13),command=issue_book)
+    issue_button.place(x=403,y=620)
 
-    defalter_button = tk.Button(main_w,text = 'DEFALTERS',fg='black',width=31,height=7,bg='white',borderwidth=0,activebackground='gray',activeforeground='white',font=('arial black',13),command=defalters)
+    defalter_button = tk.Button(main_w,text = 'DEFALTERS',fg='black',width=31,height=8,bg='white',borderwidth=0,activebackground='gray',activeforeground='white',font=('arial black',13),command=defalters)
     
-    defalter_button.place(x=823,y=520)
+    defalter_button.place(x=823,y=620)
 
     main_w.protocol('WM_DELETE_WINDOW',lambda : timegiven(main_w.destroy()))
 
@@ -1220,7 +1221,7 @@ def login(des):
     win.geometry('300x500')
     win.minsize(300,500)
     win.maxsize(300,500)
-    #win.iconbitmap('Itzikgur-My-Seven-Books-2.ico')
+    win.iconbitmap('Itzikgur-My-Seven-Books-2.ico')
     k=tk.Label(win,text='Login',font=('segoe script',35),bg='black',fg='red').pack(fill='x')
     
     frm=tk.Frame(bg='black',width=300,height=450).pack(fill='both')
